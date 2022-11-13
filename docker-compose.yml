@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  hackCV:
+  hackcv:
     build: .
-    command:  python3 run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel
+    command:  python3 Run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input "http://10.13.13.4:9081"
     restart: unless-stopped

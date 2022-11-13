@@ -5,7 +5,7 @@
 # e.g., 'email@gmail.com'
 MAIL = ''
 # Enter the ip camera url (e.g., url = 'http://191.138.0.100:8040/video')
-url = "http://10.13.13.4:9082"
+url = "http://10.13.13.4:9081"
 
 # ON/OFF for mail feature. Enter True to turn on the email alert feature.
 ALERT = False

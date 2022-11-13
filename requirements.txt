@@ -1,7 +1,5 @@
-cmake
 schedule
 argparse
 imutils
-dlib
 scipy
 cmake
